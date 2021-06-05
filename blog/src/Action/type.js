@@ -1,0 +1,13 @@
+export const LOGINPAGE = 'LOGINPAGE'
+export const LOGIN_FAIL = 'LOGIN_FAIL'
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS'
+export const SIGNUP_FAIL = 'SIGNUP_FAIL'
+export const BLOGCREATED = 'BLOGCREATED'
+export const LOGOUT = 'LOGOUT'
+export const USER_LOAD_SUCCESS = 'USER_LOAD_SUCCESS'
+export const BLOG_LOAD_SUCCESS = 'BLOG_LOAD_SUCCESS'
+export const BLOG_ALL_VIEW = 'BLOG_ALL_VIEW'
+export const BLOG_VIEW = 'BLOG_VIEW'
+export const BLOG_UPDATE = 'BLOG_UPDATE'
+export const BLOG_DELETE = 'BLOG_DELETE'
+

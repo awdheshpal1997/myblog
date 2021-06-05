@@ -1,0 +1,99 @@
+#foot{
+    margin-top: 2cm;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-emphasis-color: rgb(232, 233, 232);
+    color: rgb(243, 242, 240); 
+    box-shadow: 5px 10px 10px 5px #080606;
+    box-sizing: 1000px;
+    background-color: #65666bb4;
+
+}
+#pa{
+    text-align: left;
+}
+#home{
+    width: 80%;
+    padding-right: 25px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#81e4a2;
+   
+    
+}
+#hom{
+    width: 96%;
+    padding-right: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #e2daca;
+  
+}
+.mainbackg{
+    background-color: black;
+    
+}   
+#navbarNav{
+    background-color: rgb(38, 189, 235);
+}  
+.loginf{
+        width: 60%;
+        padding: 10px;
+        margin-left: 150px;
+        background-color: #88abce;
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        max-width: 100%;
+        box-shadow: 10px 40px 40px 10px #f0ccea;
+}
+#use{
+    color: rgb(196, 6, 6);
+} 
+#lg{
+    color: #1da728;
+} 
+#forml{
+    box-shadow: 5px 10px 10px 5px #a3a4a5;
+}   
+#signup{
+    opacity: 1;
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 90px;
+    margin-left: 250px;
+    padding: 10px;
+    box-shadow: 10px 40px 40px 10px #dbbfbf;
+
+}     
+#create{
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 90px;
+    margin-left: 250px;
+    padding: 10px;
+    opacity: 1.0;
+    box-shadow: 10px 40px 40px 10px #f1efef;
+}
+#bl{
+    text-align: center;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 500px;
+    margin-left: 200px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px 5px #aca7a7;
+}
