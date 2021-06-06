@@ -20,12 +20,12 @@ const BlogViewId = ({blogid,history,blogd}) =>{
     return(
         <div id='bl'>
             <Link onClick={onSubmit} >Myblogs</Link>
-             {Blogdata.map(item => <Card 
+             {Blogdata.map(item => <Card id='bl1'
 
                  title={item.title}  >
                         {item.content}
-                    <hr></hr><a onClick={()=>handleUpdate(item.id)}>Update</a><hr></hr>
-                    <a onClick={()=>handledelete(item.id)}>Delete</a>    
+                    <br></br><a id='update'class='btn btn-primary' onClick={()=>handleUpdate(item.id)}>Update</a>
+                    <a id='delete' class='btn btn-primary' onClick={()=>handledelete(item.id)}>Delete</a>    
                 </Card>)}
         </div>
     )

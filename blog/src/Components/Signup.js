@@ -34,7 +34,7 @@ const Signup = ({signin})=>{
                     <input className='form-control' type='password' placeholder='Password' 
                     name='password' value={formData.password} onChange={onChange}required/>
                 </div>
-                <button type='submit'>Sign Up</button>
+                <button type='submit'class='btn btn-primary'>Sign Up</button>
             </form>
             
             <p className='mt-3'>

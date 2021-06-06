@@ -97,3 +97,19 @@
     padding: 10px;
     box-shadow: 5px 10px 10px 5px #aca7a7;
 }
+#bl1{
+    border: black;
+    padding: 10px;
+    margin: auto;
+}
+#update{
+  margin-right: 10px;
+}
+#delete{
+    margin-left: 10px;
+}
+#blog{
+    border: black;
+    padding: 10px;
+    margin: auto;
+}

@@ -13,10 +13,8 @@ const BlogView = ({allblog}) =>{
     return(
         <div id='bl'>
              <Link onClick={onSubmit} >Allblogs</Link>
-             {allblogs.map(item => <Card 
-                headStyle={{backgroundColor: '#f1efef', border: 50,algin:"center" }}
-                    hoverable
-                    style={{ width: 300 }} title={item.title}  >
+             {allblogs.map(item => <Card id='blog'
+                 title={item.title}  >
                         {item.content}
                 </Card>)}
         </div>

@@ -30,7 +30,7 @@ const Login = ({ login, detail,history }) => {
                     <input className='form-control' id='lg' type='password' placeholder='Password'
                         name='password' value={formData.password} onChange={onChange} required />
                 </div>
-                <button type='submit' id='loginf' href="/allblogview">Login</button>
+                <button type='submit' id='loginf'class='btn btn-primary' href="/allblogview">Login</button>
             </form>
             <p className='mt-3'>
                 Don't have an account?<Link to='/signup'>Sign Up</Link>
